@@ -1,0 +1,142 @@
+
+ 
+ 
+ 
+  header{
+    color:white;
+    background-image: url(https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/textured_blue/style/header.png);
+    height:15%;
+   }
+
+ .container1{
+   
+    align-items:center;
+   
+    padding: 0;
+   
+     font-family: "trebuchet ms", arial, sans-serif;
+   }
+
+
+ .link{  
+     
+    margin:0px!important;
+    text-decoration:none;
+     font-size: 1.5vw;
+     text-decoration:none;
+     float:left;
+     display:block;
+     
+   }
+   
+   .selected{
+      margin:0px!important;
+    text-decoration:none;
+     font-size: 1.5vw;
+     text-decoration:none;
+     background:darkblue;
+     float:left;
+     display:block;
+     
+
+   }
+
+
+ body{
+    background-image: url(https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/textured_blue/style/background.png);
+    font-family: "trebuchet ms", arial, sans-serif;
+    margin:0px;
+   }
+
+ #navbar{
+     background-color: #1293ee;
+     color:white;
+     align-items:center;
+     display: flex;
+     margin-left:50px;
+     margin-right:50px;
+     text-decoration:none;
+    }
+
+  ul.nav li{
+    
+    display:inline-block;
+    list-style-type: none;
+    
+    
+     }
+  
+  .nav li:hover {
+     background-color: darkblue;
+  }
+
+
+
+ .heading{
+    display: flex;
+    font-size:5vw;
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-weight:300;
+    }
+
+ .container2{
+    
+     
+    overflow: hidden;
+    margin: 0 50px 0 50px;
+    padding: 20px 24px 20px 37px;
+    background:white;
+
+    }
+
+
+ .left{
+ 
+    width:70%;
+    float:left; 
+    word-wrap:break-word;
+    
+ }
+
+ .right{
+
+    width:25%;
+    float:right; 
+    word-wrap:break-word;
+ }
+
+
+  .footer{ 
+     position:relative;
+    bottom:0;
+    color:white;
+    background-color: #1293ee;
+    font-family: 'lucida sans unicode', arial, sans-serif;
+    height: 33px;
+    padding: 24px 0 5px 0;
+    text-align: center;
+    margin-left:50px;
+     margin-right:50px;
+     font-size:1.5vw;
+  }
+
+  p{
+     font-family: "trebuchet ms", arial, sans-serif;
+      color:#777;
+      font-size:1.25vw;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+     font-style:normal;
+  }
+
+  .usefullinks{
+     
+     margin:5px;
+     padding:0px 0px 7px 20px;
+     list-style-image: url(https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/textured_blue/style/link.png);
+     font-size:1.25vw;
+     list-style-type: none;
+  }
+ 
+
