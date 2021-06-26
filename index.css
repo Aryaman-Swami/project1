@@ -56,15 +56,23 @@
      margin-left:50px;
      margin-right:50px;
      text-decoration:none;
-    }
+     
+   }
+   
 
   ul.nav li{
-    
+    vertical-align:middle;
+    text-align:center;
     display:inline-block;
     list-style-type: none;
-    
-    
+    height:30px;
+    margin-top:25px;
      }
+  ul.nav li a{
+  vertical-align:middle;
+    text-align:center;
+  }
+
   
   .nav li:hover {
      background-color: darkblue;
@@ -139,4 +147,21 @@
      list-style-type: none;
   }
  
+  .search input[type=text]{
+     width:85px;
+  }
+ 
+@media(max-width:500px){
+.search input[type=text]{ 
+ width:50px;
+  height:5px;
+  font-size:8px;
+}
 
+ul.nav li{
+height:auto;
+margin:5px;
+padding:0px;
+}
+
+}
